@@ -1,0 +1,4 @@
+- Annadir control de nave cuando el jugador entra presionando abajo. Una vez que se obtiene el control, 
+se puede navegar libremente y disparar desde dentro. La nave tiene vidas y al perderlas expulsa 
+al jugador actual.
+- Optimizar las bombas, tiros y todo el tema de los sprites y demas.

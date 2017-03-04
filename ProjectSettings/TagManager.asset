@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Weapon
+  - CameraTarget
+  - Enemy
+  - ShotCollider
+  - EnemyAttack
+  - Character
+  - Bomb
+  - LiveItem
+  - StartPoint
+  - Fire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Midground
+  - Character
+  - Bomb
+  - EnemyAttack
+  - Shot
+  - Obstacle
+  - Enemy
+  - LiveItem
+  - ShipEnter
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

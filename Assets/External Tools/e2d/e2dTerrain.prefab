@@ -1,0 +1,1105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 64: {fileID: 6400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 7
+  m_Name: _collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: _curve
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100003
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 33: {fileID: 3300002}
+  - 23: {fileID: 2300002}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: _fill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100005
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: e2dTerrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100007
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 33: {fileID: 3300004}
+  - 23: {fileID: 2300004}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: _grass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100009
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 400006}
+  m_RootOrder: 0
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 400006}
+  m_RootOrder: 1
+--- !u!1002 &400003
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 400006}
+  m_RootOrder: 2
+--- !u!1002 &400005
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90.51401, y: 27.093649, z: -81.05493}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 400000}
+  - {fileID: 400002}
+  - {fileID: 400004}
+  - {fileID: 400008}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1002 &400007
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 400006}
+  m_RootOrder: 3
+--- !u!1002 &400009
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!23 &2300000
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1002 &2300001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!23 &2300002
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1002 &2300003
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!23 &2300004
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1002 &2300005
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Mesh: {fileID: 0}
+--- !u!1002 &3300001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!33 &3300002
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Mesh: {fileID: 0}
+--- !u!1002 &3300003
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!33 &3300004
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Mesh: {fileID: 0}
+--- !u!1002 &3300005
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!64 &6400000
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 0}
+--- !u!1002 &6400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541ebc5a2b68e7443b3f1a319dfd1bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541ebc5a2b68e7443b3f1a319dfd1bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1002 &11400003
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541ebc5a2b68e7443b3f1a319dfd1bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1002 &11400005
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869dbb32355f648449cb01577abdeecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FullRebuild: 1
+  NodeStepSize: 0.5
+  TargetPosition: {x: 50, y: 15}
+  TargetSize: {x: 100, y: 20}
+  TargetAngle: 0
+  Perlin:
+    name: 
+    octaves: 3
+    frequencyPerUnit: 0.15615255
+    persistence: 0.3565763
+  Voronoi:
+    name: 
+    peakType: 1
+    frequencyPerUnit: 0.026327273
+    peakRatio: 1
+    peakWidth: 0.20714286
+    usePeaks: 1
+  Midpoint:
+    name: 
+    frequencyPerUnit: 0.08964545
+    roughness: 0.35454544
+    usePeaks: 1
+  Walk:
+    name: 
+    angleChangePerUnit: 56.77966
+    frequencyPerUnit: 0.07711864
+    cohesionPerUnit: 0.22033897
+  Peaks: []
+  CurveBlendingWeights:
+  - 0.34545454
+  - 0
+  - 1
+  - 0
+  SmoothIterations: 50
+  CliffTextureIndex: 2
+  CliffStartAngle: 90
+  TextureHeights:
+  - 0.50333333
+  - 1
+  - -0.1
+  - -0.1
+  GrassStopAngle: 80
+  GrassHeightRange: {x: 0, y: 1}
+  GrassDensity: 1
+--- !u!1002 &11400007
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b70eafd7d610984581734a02bdf120e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TerrainCurve:
+  - position: {x: 0, y: 13.101461}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 0.5, y: 13.080133}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 1, y: 13.006151}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 1.5, y: 12.876581}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 2, y: 12.721315}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 2.5, y: 12.659914}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 3, y: 12.862642}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 3.5, y: 13.343061}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 4, y: 13.911966}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 4.5, y: 14.38035}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 5, y: 14.694338}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 5.5, y: 14.947134}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 6, y: 15.258955}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 6.5, y: 15.696932}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 7, y: 16.255526}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 7.5, y: 16.828974}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 8, y: 17.29175}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 8.5, y: 17.611124}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 9, y: 17.84569}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 9.5, y: 18.03641}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 10, y: 18.20938}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 10.5, y: 18.329725}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 11, y: 18.441736}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 11.5, y: 18.611643}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 12, y: 18.877604}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 12.5, y: 19.303308}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 13, y: 19.757128}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 13.5, y: 20.0833}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 14, y: 20.249033}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 14.5, y: 20.370615}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 15, y: 20.61329}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 15.5, y: 20.940294}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 16, y: 21.282213}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 16.5, y: 21.628366}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 17, y: 21.961058}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 17.5, y: 22.24528}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 18, y: 22.443903}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 18.5, y: 22.594374}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 19, y: 22.643602}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 19.5, y: 22.535707}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 20, y: 22.261477}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 20.5, y: 21.941034}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 21, y: 21.742922}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 21.5, y: 21.750025}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 22, y: 21.82686}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 22.5, y: 21.7865}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 23, y: 21.558184}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 23.5, y: 21.237223}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 24, y: 20.96921}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 24.5, y: 20.768335}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 25, y: 20.601252}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 25.5, y: 20.344599}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 26, y: 19.95537}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 26.5, y: 19.493906}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 27, y: 19.047823}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 27.5, y: 18.732851}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 28, y: 18.520632}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 28.5, y: 18.201815}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 29, y: 17.69372}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 29.5, y: 17.12794}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 30, y: 16.679667}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 30.5, y: 16.21741}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 31, y: 15.700132}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 31.5, y: 15.180288}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 32, y: 14.820906}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 32.5, y: 14.5051365}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 33, y: 14.012587}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 33.5, y: 13.442175}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 34, y: 12.865366}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 34.5, y: 12.364386}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 35, y: 11.874125}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 35.5, y: 11.42267}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 36, y: 11.080267}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 36.5, y: 10.859911}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 37, y: 10.705469}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 37.5, y: 10.587976}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 38, y: 10.607958}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 38.5, y: 10.732401}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 39, y: 10.889429}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 39.5, y: 11.143297}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 40, y: 11.4490795}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 40.5, y: 11.761148}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 41, y: 12.087664}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 41.5, y: 12.439089}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 42, y: 12.801134}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 42.5, y: 13.03013}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 43, y: 13.347067}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 43.5, y: 13.942205}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 44, y: 14.617716}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 44.5, y: 15.2848}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 45, y: 15.872995}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 45.5, y: 16.32738}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 46, y: 16.715841}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 46.5, y: 17.120718}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 47, y: 17.680529}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 47.5, y: 18.251024}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 48, y: 18.640604}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 48.5, y: 18.816069}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 49, y: 18.960272}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 49.5, y: 19.254725}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 50, y: 19.615717}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 50.5, y: 19.969656}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 51, y: 20.278284}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 51.5, y: 20.610132}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 52, y: 20.896597}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 52.5, y: 21.061247}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 53, y: 21.168825}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 53.5, y: 21.242247}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 54, y: 21.298403}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 54.5, y: 21.36947}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 55, y: 21.514109}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 55.5, y: 21.75612}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 56, y: 22.049032}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 56.5, y: 22.30131}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 57, y: 22.417582}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 57.5, y: 22.343142}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 58, y: 22.012598}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 58.5, y: 21.422396}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 59, y: 20.609423}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 59.5, y: 19.69211}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 60, y: 18.75908}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 60.5, y: 17.767885}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 61, y: 16.747541}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 61.5, y: 15.713869}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 62, y: 14.706442}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 62.5, y: 13.800554}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 63, y: 13.031092}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 63.5, y: 12.399157}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 64, y: 11.939623}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 64.5, y: 11.620451}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 65, y: 11.4480915}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 65.5, y: 11.316809}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 66, y: 11.232256}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 66.5, y: 11.286882}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 67, y: 11.427}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 67.5, y: 11.57284}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 68, y: 11.65066}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 68.5, y: 11.82942}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 69, y: 12.204363}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 69.5, y: 12.681326}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 70, y: 13.192537}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 70.5, y: 13.789515}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 71, y: 14.584665}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 71.5, y: 15.345179}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 72, y: 15.875856}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 72.5, y: 16.204348}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 73, y: 16.5118}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 73.5, y: 16.864046}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 74, y: 17.146593}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 74.5, y: 17.255854}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 75, y: 17.160925}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 75.5, y: 17.006876}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 76, y: 16.884455}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 76.5, y: 16.82987}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 77, y: 16.835672}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 77.5, y: 16.828722}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 78, y: 16.759333}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 78.5, y: 16.627306}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 79, y: 16.424906}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 79.5, y: 16.27582}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 80, y: 16.157892}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 80.5, y: 16.133402}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 81, y: 16.23049}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 81.5, y: 16.343935}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 82, y: 16.183474}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 82.5, y: 15.713175}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 83, y: 15.072927}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 83.5, y: 14.349421}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 84, y: 13.618612}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 84.5, y: 12.9265}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 85, y: 12.314272}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 85.5, y: 11.794161}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 86, y: 11.389284}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 86.5, y: 11.033224}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 87, y: 10.626085}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 87.5, y: 10.162729}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 88, y: 9.801424}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 88.5, y: 9.505899}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 89, y: 9.1612835}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 89.5, y: 8.737543}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 90, y: 8.316881}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 90.5, y: 8.019796}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 91, y: 7.8057613}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 91.5, y: 7.6009007}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 92, y: 7.406988}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 92.5, y: 7.3448772}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 93, y: 7.4060345}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 93.5, y: 7.449438}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 94, y: 7.3799076}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 94.5, y: 7.203779}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 95, y: 6.975294}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 95.5, y: 6.7589474}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 96, y: 6.561144}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 96.5, y: 6.4062786}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 97, y: 6.420908}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 97.5, y: 6.6894817}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 98, y: 7.147547}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 98.5, y: 7.603815}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 99, y: 7.9059315}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 99.5, y: 8.033392}
+    texture: 0
+    grassRatio: 0
+  - position: {x: 100, y: 8.060705}
+    texture: 0
+    grassRatio: 0
+  TerrainBoundary:
+    serializedVersion: 2
+    x: -98.67767
+    y: 5
+    width: 321.86194
+    height: 98.25177
+  FillTexture: {fileID: 2800000, guid: 3369ce8296fe1c240803fed4c23d78b2, type: 3}
+  FillTextureTileWidth: 9.24
+  FillTextureTileHeight: 4.44
+  FillTextureTileOffsetX: 0
+  FillTextureTileOffsetY: 6.21118
+  CurveClosed: 0
+  CurveTextures:
+  - texture: {fileID: 2800000, guid: c7a4e6a93dbc5cd4ab4579b9f4cdf9fd, type: 3}
+    size: {x: 1, y: 1}
+    fixedAngle: 0
+    fadeThreshold: 0.3
+  GrassTextures:
+  - texture: {fileID: 2800000, guid: c7a4e6a93dbc5cd4ab4579b9f4cdf9fd, type: 3}
+    size: {x: 1, y: 1}
+    sizeRandomness: {x: 0.5, y: 0.5}
+    waveAmplitude: 0.5
+  GrassWaveSpeed: 1
+  GrassScatterRatio: 0
+  PlasticEdges: 1
+--- !u!1002 &11400009
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541ebc5a2b68e7443b3f1a319dfd1bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1002 &11400011
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100006}
+  m_IsPrefabParent: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

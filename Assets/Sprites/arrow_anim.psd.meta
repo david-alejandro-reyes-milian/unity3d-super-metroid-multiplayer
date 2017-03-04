@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 0e40ced9818ea3140991889ac3d140c8
+timeCreated: 1461162801
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: arrow_anim_0
+    21300002: arrow_anim_1
+    21300004: arrow_anim_2
+    21300006: arrow_anim_3
+    21300008: arrow_anim_4
+    21300010: arrow_anim_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: arrow_anim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 10}
+        - {x: -2, y: -22}
+        - {x: 4, y: -22}
+        - {x: 17, y: 6}
+        - {x: 17, y: 23}
+        - {x: -17, y: 23}
+    - name: arrow_anim_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 24}
+        - {x: -17, y: 24}
+        - {x: -17, y: 13}
+        - {x: -2, y: -19}
+        - {x: 2, y: -19}
+        - {x: 7, y: -10}
+        - {x: 17, y: 16}
+    - name: arrow_anim_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 10}
+        - {x: -2, y: -22}
+        - {x: 4, y: -22}
+        - {x: 17, y: 6}
+        - {x: 17, y: 23}
+        - {x: -17, y: 23}
+    - name: arrow_anim_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 8}
+        - {x: -2, y: -24}
+        - {x: 4, y: -24}
+        - {x: 17, y: 4}
+        - {x: 17, y: 21}
+        - {x: -17, y: 21}
+    - name: arrow_anim_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 7}
+        - {x: -4, y: -24}
+        - {x: 4, y: -24}
+        - {x: 17, y: 5}
+        - {x: 17, y: 19}
+        - {x: -3, y: 19}
+        - {x: -17, y: 18}
+    - name: arrow_anim_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 8}
+        - {x: -2, y: -24}
+        - {x: 4, y: -24}
+        - {x: 17, y: 4}
+        - {x: 17, y: 21}
+        - {x: -17, y: 21}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: 44f597b958aee094f8aabd8008b9f3ea
+timeCreated: 1461902770
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Map1_uniform
+    21300002: Map1_2
+    21300004: Map1_7
+    21300006: Map1_22
+    21300008: Map1_33
+    21300010: Map1_111
+    21300012: Map1_5
+    21300014: Map1_3
+    21300016: Map1_222
+    21300018: Map1_11
+    21300020: Map1_6
+    21300022: Map1_1
+    21300024: Map1_4
+    21300026: Map1_12
+    21300028: Map1_12
+    21300030: Map1_22
+    21300032: Map1_32
+    21300034: Map1_21
+    21300036: Map1_31
+    21300038: Map1_Uniform
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Map1_12
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1587
+        width: 802
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 177.5, y: 116}
+        - {x: 137.5, y: 101}
+        - {x: 105.5, y: 116}
+        - {x: 69.5, y: 116}
+        - {x: 60.5, y: 108}
+        - {x: 12.5, y: 93}
+        - {x: 3.5, y: 50}
+        - {x: -12.5, y: 91}
+        - {x: -44.5, y: 116}
+        - {x: -75.5, y: 116}
+        - {x: -95.5, y: 103}
+        - {x: -129.5, y: 93}
+        - {x: -156.5, y: 52}
+        - {x: -200.5, y: 51}
+        - {x: -200.5, y: -49}
+        - {x: -88.5, y: -52}
+        - {x: -51.5, y: -50}
+        - {x: -31.5, y: -65}
+        - {x: -19.5, y: -73}
+        - {x: 68.5, y: -115}
+        - {x: 201.5, y: -115}
+        - {x: 201.5, y: 116}
+    - name: Map1_22
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 1613
+        width: 802
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79.5, y: -92.5}
+        - {x: 171.5, y: -92.5}
+        - {x: 201.5, y: -94.5}
+        - {x: 201.5, y: -18.5}
+        - {x: 160.5, y: -4.5}
+        - {x: 150.5, y: 23.5}
+        - {x: 133.5, y: 44.5}
+        - {x: 126.5, y: 96.5}
+        - {x: 96.5, y: 91.5}
+        - {x: 78.5, y: 69.5}
+        - {x: 52.5, y: 90.5}
+        - {x: 7.5, y: 109.5}
+        - {x: -54.5, y: 109.5}
+        - {x: -80.5, y: 87.5}
+        - {x: -94.5, y: 54.5}
+        - {x: -110.5, y: 53.5}
+        - {x: -123.5, y: 91.5}
+        - {x: -135.5, y: 98.5}
+        - {x: -147.5, y: 109.5}
+        - {x: -199.5, y: 109.5}
+        - {x: -200.5, y: 108.5}
+        - {x: -200.5, y: -106.5}
+        - {x: -196.5, y: -108.5}
+        - {x: 53.5, y: -108.5}
+    - name: Map1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1529
+        width: 801
+        height: 519
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: -72.5}
+        - {x: -27.5, y: -31.5}
+        - {x: -200.5, y: -31.5}
+        - {x: -200.5, y: -129.5}
+        - {x: 200.5, y: -129.5}
+        - {x: 200.5, y: -94.5}
+        - {x: 83.5, y: -91.5}
+      - - {x: 35.5, y: 67.5}
+        - {x: 124.5, y: 62.5}
+        - {x: 200.5, y: 87.5}
+        - {x: 200.5, y: 130.5}
+        - {x: -200.5, y: 130.5}
+        - {x: -200.5, y: 34.5}
+        - {x: 22.5, y: 34.5}
+        - {x: 32.5, y: 56.5}
+        - {x: 35.5, y: 63.5}
+    - name: Map1_21
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1529
+        width: 802
+        height: 519
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -200.5, y: -80.5}
+        - {x: -200.5, y: -129.5}
+        - {x: 201.5, y: -129.5}
+        - {x: 201.5, y: -80.5}
+        - {x: -84.5, y: -80.5}
+        - {x: -134.5, y: -82.5}
+      - - {x: -200.5, y: 130.5}
+        - {x: -200.5, y: 90.5}
+        - {x: -159.5, y: 49.5}
+        - {x: -72.5, y: -22.5}
+        - {x: -25.5, y: 63.5}
+        - {x: -0.5, y: 44.5}
+        - {x: 88.5, y: 44.5}
+        - {x: 141.5, y: -38.5}
+        - {x: 179.5, y: -48.5}
+        - {x: 201.5, y: -48.5}
+        - {x: 201.5, y: 130.5}
+    - name: Map1_7
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1013
+        width: 802
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 129}
+        - {x: -13.5, y: 112}
+        - {x: -71.5, y: 99}
+        - {x: -87.5, y: 86}
+        - {x: -83.5, y: 61}
+        - {x: -57.5, y: 41}
+        - {x: -30.5, y: 32}
+        - {x: 6.5, y: -5}
+        - {x: 12.5, y: -28}
+        - {x: 29.5, y: -48}
+        - {x: 65.5, y: -48}
+        - {x: 57.5, y: -99}
+        - {x: 17.5, y: -97}
+        - {x: -68.5, y: -88}
+        - {x: -116.5, y: -91}
+        - {x: -169.5, y: -95}
+        - {x: -200.5, y: -103}
+        - {x: -200.5, y: -128}
+        - {x: 201.5, y: -128}
+        - {x: 201.5, y: 129}
+    - name: Map1_31
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 1529
+        width: 802
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: -70}
+        - {x: -200.5, y: -70}
+        - {x: -200.5, y: -128}
+        - {x: 201.5, y: -128}
+        - {x: 201.5, y: -97}
+        - {x: 153.5, y: -88}
+        - {x: 100.5, y: -87}
+      - - {x: -200.5, y: 129}
+        - {x: -200.5, y: -22}
+        - {x: -67.5, y: -22}
+        - {x: -36.5, y: -5}
+        - {x: 4.5, y: 79}
+        - {x: 4.5, y: 129}
+    - name: Map1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1013
+        width: 801
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85.5, y: -27}
+        - {x: -13.5, y: -27}
+        - {x: -67.5, y: -37}
+        - {x: -126.5, y: -66}
+        - {x: -200.5, y: -102}
+        - {x: -200.5, y: -128}
+        - {x: 200.5, y: -128}
+        - {x: 200.5, y: -81}
+        - {x: 146.5, y: -50}
+    - name: Map1_5
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1014
+        width: 800
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -200, y: -71}
+        - {x: -200, y: -128}
+        - {x: 200, y: -128}
+        - {x: 200, y: -71}
+    - name: Map1_6
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1014
+        width: 800
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -60}
+        - {x: -157, y: -60}
+        - {x: -200, y: -70}
+        - {x: -200, y: -128}
+        - {x: 200, y: -128}
+        - {x: 200, y: -102}
+        - {x: 196, y: -96}
+    - name: Map1_Uniform
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 1001
+        width: 801
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -200, y: 129}
+        - {x: -200, y: -128}
+        - {x: 201, y: -128}
+        - {x: 201, y: 129}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
